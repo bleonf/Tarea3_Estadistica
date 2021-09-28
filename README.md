@@ -23,3 +23,5 @@ Finalmente, en las útlimas lineas del código esta la opción de descomentar la
 ~~~
 plt.savefig("ISING_pasos{}_T{}_J{}_sq{}.pdf".format(steps,Temp,J_spin,square_size))
 ~~~
+
+Con estas opciones, el usuario ya puede correr el script de python que aparte de mostrar y guardar las figuras, guarda en dos archivos de texto los valores de energia y magnetizacion para analisis posterior.
