@@ -25,3 +25,5 @@ plt.savefig("ISING_pasos{}_T{}_J{}_sq{}.pdf".format(steps,Temp,J_spin,square_siz
 ~~~
 
 Con estas opciones, el usuario ya puede correr el script de python que aparte de mostrar y guardar las figuras, guarda en dos archivos de texto los valores de energia y magnetizacion para analisis posterior.
+
+Adicionalmente se incluye un codigo base con el que se pueden analizar los archivos output de magnetizacion y energia y graficarlos juntos.
